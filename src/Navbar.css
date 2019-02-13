@@ -1,0 +1,36 @@
+.nav-wrapper {
+  background-color: rgb(53, 69, 89);
+  margin: 0;
+  padding: 0 15px;
+  display: flex;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.nav-logo,
+.nav-link {
+  width: 100%;
+  color: white;
+}
+
+.nav-logo {
+  margin: 0;
+}
+
+.nav-item {
+  padding-right: 20px;
+  list-style-type: none;
+}
+
+.nav-item:last-child {
+  padding-right: 0;
+}
+
+.nav-link {
+  text-decoration: none;
+}
